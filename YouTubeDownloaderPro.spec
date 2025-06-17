@@ -10,7 +10,7 @@ block_cipher = None
 # Encontra o caminho para a pasta do customtkinter para incluir os temas
 customtkinter_path = os.path.dirname(customtkinter.__file__)
 
-# CORRIGIDO: Adiciona o ficheiro do ícone à lista de dados a incluir
+
 datas = [
     (customtkinter_path, 'customtkinter/'),
     ('icon.ico', '.') 
@@ -21,7 +21,7 @@ a = Analysis(
     ['downloader_pc.py'],
     pathex=[],
     binaries=[],
-    datas=datas, # Usa a lista de dados que definimos acima
+    datas=datas, 
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
