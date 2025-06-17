@@ -38,7 +38,7 @@ class AdvancedDesktopDownloader(ctk.CTk):
         super().__init__()
 
         self.title("YouTube Downloader Pro")
-        # CORRIGIDO: Define o ícone da janela
+        
         try:
             icon_path = resource_path("icon.ico")
             self.iconbitmap(icon_path)
